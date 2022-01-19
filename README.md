@@ -1,2 +1,0 @@
-# Jaicp
-Jaicp bots farm
