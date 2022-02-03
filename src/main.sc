@@ -13,7 +13,7 @@ theme: /
 
 
     state: SwitchToReminder
-        q!: * переключись на напоминание *
+        q!: * переключись на напомина* *
         script:
             $response.replies = $response.replies || []; // Инициализация массива `$response.replies`
             $response.replies.push({
@@ -22,6 +22,19 @@ theme: /
                 targetState: "/Start",
                 parameters: {}
             });
+            
+    state: SwitchToWeather
+        q!: * переключись на погоду *
+        script:
+            $response.replies = $response.replies || []; // Инициализация массива `$response.replies`
+            $response.replies.push({
+                type: "context-switch",
+                targetBotId: "1000009678-_demo_bot_dlya_progn-1000009678-tKm-20938050406",
+                targetState: "/Start",
+                parameters: {}
+            });        
+    
+    
     state: SwitchToMain
         q!: * переключись обратно *
         script:
