@@ -30,7 +30,8 @@ theme: /
             $response.replies.push({
                 type: "context-switch",
                 targetBotId: "1000009678-_demo_bot_dlya_progn-1000009678-tKm-20938050406",
-                targetState: "/Start",
+###             взять во внимание название стейта в боте^   
+                targetState: "/Welcome",
                 parameters: {}
             });        
     
