@@ -10,6 +10,29 @@ theme: /
         intent!: /привет
         a: Привет привет
 
+
+
+    state: SwitchToReminder
+        q!: * переклю* [на/по] ~напомина* *
+        script:
+            $response.replies = $response.replies || []; // Инициализация массива `$response.replies`
+            $response.replies.push({
+                type: "context-switch",
+                targetBotId: "1000009678-yogabot_v0_3-1000009678-tpi-20938101695",
+                targetState: "/Start",
+                parameters: {}
+            });
+    state: SwitchToMain
+        q!: * переклю* [на/по] ~основной *
+        script:
+            $response.replies = $response.replies || []; // Инициализация массива `$response.replies`
+            $response.replies.push({
+                type: "context-return",
+                state: "/Start",
+                data: {}
+            });
+
+
     state: Bye
         intent!: /пока
         a: Пока пока
@@ -17,4 +40,3 @@ theme: /
     state: NoMatch
         event!: noMatch
         a: Я не понял. Вы сказали: {{$request.query}}
-
