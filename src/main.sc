@@ -4,7 +4,7 @@ theme: /
 
     state: Start
         q!: $regex</start>
-        a: Начнём.
+        a: Начнём. Ты находишься в основном сценарии Context-Switch 
 
     state: Hello
         intent!: /привет
