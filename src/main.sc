@@ -13,7 +13,7 @@ theme: /
 
 
     state: SwitchToReminder
-        q!: * переклю* [на/по] ~напомина* *
+        q!: * переключись на напоминание *
         script:
             $response.replies = $response.replies || []; // Инициализация массива `$response.replies`
             $response.replies.push({
@@ -23,7 +23,7 @@ theme: /
                 parameters: {}
             });
     state: SwitchToMain
-        q!: * переклю* [на/по] ~основной *
+        q!: * переключись обратно *
         script:
             $response.replies = $response.replies || []; // Инициализация массива `$response.replies`
             $response.replies.push({
