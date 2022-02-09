@@ -33,6 +33,22 @@
       "text" : "привет"
     } ],
     "priority" : 0
+  }, {
+    "id" : 5200759,
+    "path" : "/что ты умеешь",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "что ты умеешь?"
+    }, {
+      "text" : "чо умеешь?"
+    }, {
+      "text" : "зачем ты нужен?"
+    }, {
+      "text" : "какой у тебя функционал"
+    } ],
+    "patterns" : [ ],
+    "priority" : 0
   } ],
   "entities" : [ ],
   "enabledSystemEntities" : [ "duckling.number", "duckling.time", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url" ],
