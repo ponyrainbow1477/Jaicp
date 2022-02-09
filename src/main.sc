@@ -46,7 +46,7 @@ theme: /
                     type: "context-switch",
                     targetBotId: "1000009678-_demo_bot_dlya_progn-1000009678-tKm-20938050406",
     ###             взять во внимание название стейта в боте^   
-                    targetState: "/GetWeather",
+                    targetState: "/Welcome",
                     parameters: {}
                 });        
     
