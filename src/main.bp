@@ -1,0 +1,39 @@
+{
+  "positions" : [ {
+    "id" : "/CatchAll",
+    "x" : -66,
+    "y" : 151
+  }, {
+    "id" : "/SwitchToMain",
+    "x" : -176,
+    "y" : 183
+  }, {
+    "id" : "/Welcome",
+    "x" : -397,
+    "y" : -124
+  }, {
+    "id" : "/GetWeather",
+    "x" : -396,
+    "y" : 193
+  }, {
+    "id" : "/Start/GetCity",
+    "x" : 876,
+    "y" : 112
+  }, {
+    "id" : "/SwitchToMain/state: \"/Start\",",
+    "x" : -290,
+    "y" : 1
+  }, {
+    "id" : "/Start",
+    "x" : 231,
+    "y" : 45
+  }, {
+    "id" : "/Start/CatchAll",
+    "x" : 930,
+    "y" : 474
+  }, {
+    "id" : "/SetReminder/GetReminder",
+    "x" : 1329,
+    "y" : 489
+  } ]
+}

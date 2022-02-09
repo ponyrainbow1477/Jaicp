@@ -24,6 +24,8 @@ theme: /
             });
             
     state: SwitchToWeather
+        buttons:
+        "Погода"
         q!: * переключись на погоду *
         script:
             $response.replies = $response.replies || []; // Инициализация массива `$response.replies`
