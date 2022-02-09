@@ -21,9 +21,9 @@ theme: /
 #                {text: "Погода", url: "https://telegram.me/echo3_aDy5DTilGs8geRNN3A_bot"}
 #                {text: "Напоминания", url: "https://telegram.me/echo2_aDy5DTilGs8geRNN3A_bot"}
 #        else:        
-            buttons:
-                "Погода" -> ./SwitchToWeather
-                "Напоминания" -> ./SwitchToReminder
+        buttons:
+            "Погода" -> ./SwitchToWeather
+            "Напоминания" -> ./SwitchToReminder
         
         state: SwitchToReminder
     #        q!: * переключись на напомина* *
