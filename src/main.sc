@@ -18,6 +18,7 @@ theme: /
         
 #        if: $request.channelType == "telegram"
 #            inlineButtons:
+### показать кнопки-ссылки в бота в ТГ
 #                {text: "Погода", url: "https://telegram.me/echo3_aDy5DTilGs8geRNN3A_bot"}
 #                {text: "Напоминания", url: "https://telegram.me/echo2_aDy5DTilGs8geRNN3A_bot"}
 #        else:        
