@@ -46,11 +46,12 @@ theme: /
                     type: "context-switch",
                     targetBotId: "1000009678-_demo_bot_dlya_progn-1000009678-tKm-20938050406",
     ###             взять во внимание название стейта в боте^   
-                    targetState: "/Welcome",
+                    targetState: "/GetWeather",
                     parameters: {}
                 });        
     
     
+#context-return в основном боте не нужен, этот параметр задается во вложенном боте
 #    state: SwitchToMain
 #        q!: * переключись обратно *
 #        script:
