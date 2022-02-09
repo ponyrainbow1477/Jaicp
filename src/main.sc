@@ -16,11 +16,11 @@ theme: /
         a: Спасибо за вопрос. Я умею переключаться между ботами.
         a: Могу переключиться на бота который знает прогноз погоды или на бота для напоминаний.
         
-        if: $request.channelType == "telegram"
-            inlineButtons:
-                {text: "Погода", url: "https://telegram.me/echo3_aDy5DTilGs8geRNN3A_bot"}
-                {text: "Напоминания", url: "https://telegram.me/echo2_aDy5DTilGs8geRNN3A_bot"}
-        else:        
+#        if: $request.channelType == "telegram"
+#            inlineButtons:
+#                {text: "Погода", url: "https://telegram.me/echo3_aDy5DTilGs8geRNN3A_bot"}
+#                {text: "Напоминания", url: "https://telegram.me/echo2_aDy5DTilGs8geRNN3A_bot"}
+#        else:        
             buttons:
                 "Погода" -> ./SwitchToWeather
                 "Напоминания" -> ./SwitchToReminder
